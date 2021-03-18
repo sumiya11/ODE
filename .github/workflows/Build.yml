@@ -10,4 +10,4 @@ jobs:
       with:
           version: '1.4'
     - uses: julia-actions/julia-buildpkg@master
-    - run: julia --project src/TestJl.jl
+    - run: julia --project src/SparseAlgebra.jl
