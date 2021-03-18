@@ -287,7 +287,8 @@ function __deterministic_simple_minpoly(A, PolySpace)
     V = Subspacik(field)
     power = 0
     for i in 1:size(C, 1)
-        if !haskey(C.rows, i) || eat_sparsik!(V, deepcopy(C.rows[i])) == reduced
+        eatcode = eat_sparsik!(V, deepcopy(C.rows[i]))
+        if !haskey(C.rows, i) || eatcode == reduced
             power = i
             break
         end
