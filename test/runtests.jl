@@ -2,8 +2,6 @@
 using Test
 using TestSetExtensions
 
-
-
 @info "Testing started"
 
 @testset "All the tests" begin
