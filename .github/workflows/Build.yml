@@ -9,5 +9,5 @@ jobs:
     - uses: julia-actions/setup-julia@v1
       with:
           version: '1.4'
-    - uses: julia-actions/julia-buildpkg@master
+    - uses: julia-actions/julia-buildpkg@latest
     - run: julia --project src/SparseAlgebra.jl
