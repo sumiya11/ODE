@@ -177,7 +177,6 @@ function square_nonsingular_deterministic_wiedemann(A::AbstractSparseMatrix, b::
         # 8
         k += 1
     end
-    println(g)
 
     if iszero(coeff(g, 0)) || isone(g)
         throw(SingularException(0))

@@ -60,8 +60,6 @@ import Nemo: det
 
         X = [convert(Int, x) for x in to_dense(A)]
         if iszero(det(X))
-            println()
-            println(A)
             error("W. did't notice singularity")
         end
 

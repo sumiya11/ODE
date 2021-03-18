@@ -93,7 +93,7 @@ function find_radical_1(vectors)
 end
 
 
-find_radical_1([A1, A2, A3])
+# find_radical_1([A1, A2, A3])
 #------------------------------------------------------------------------------
 
 
