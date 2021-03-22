@@ -8,8 +8,8 @@ using SparseAlgebra
 
 @testset "All the tests" begin
 
-    @includetests [:sparsik_tests, :parsik_tests,
-                    :dok_sparsik_tests, :wiedemannchik_tests,
+    @includetests [:sparsik_tests,
+                    :dok_sparsik_tests,
                     :find_basis_tests]
 
 end
